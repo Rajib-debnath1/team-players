@@ -1,0 +1,22 @@
+.players{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.players-container{
+ display: grid;
+ grid-template-columns: 4fr 1fr;
+ gap: 15px;
+ max-width: 90%;
+ margin: auto;
+ margin-top: 25px;
+ margin-bottom: 30px;
+}
+.Players-title{
+    background-color: rgb(118, 84, 150);
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}

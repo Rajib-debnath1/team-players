@@ -1,0 +1,18 @@
+
+.player{
+    border: 1px solid darkgoldenrod;
+    border-radius: 15px;
+}
+.player img{
+    height: 250px;
+    width: 300px;
+    background-color: darkorange;
+    border-radius: 15px;
+}
+.player-info{
+    background-color: rgb(61, 59, 61);
+    color: white;
+    margin: 0 70px;
+    padding: 5px 0;
+    border-radius: 5px;
+}

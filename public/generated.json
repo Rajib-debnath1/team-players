@@ -1,0 +1,30 @@
+[
+  
+ 
+ 
+  {
+    "id": 3,
+    "name": "Masrafee",
+    "price": 45000,
+    "img": "https://i.ibb.co/Y2SRHDr/masrafee.jpg"
+  },
+  {
+    "id": 4,
+    "name": "musfiq",
+    "price": 40000,
+    "img": "https://i.ibb.co/gM6yVqc/musfiq.jpg"
+  },
+  {
+    "id": 5,
+    "name": "somuya",
+    "price": 35000,
+    "img": "https://i.ibb.co/rbRLpwL/somuya.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Towhid",
+    "price": 55000,
+    "img": "https://i.ibb.co/t4hryxM/ridoy.jpg"
+  }
+
+]
