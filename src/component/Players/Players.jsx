@@ -8,12 +8,22 @@ const Players = () => {
     
     const [players, setPlayers] = useState([]);
 
+    const [cart, setCart] = useState([]);
+    console.log(cart)
+
     useEffect(()=>{
         fetch('generated.json')
         .then(res => res.json())
         .then(data => setPlayers(data))
     },[])
-    // console.table(players)
+    
+    
+    
+    const handlePlayer =(player) =>{
+        const newCart = [...cart,player]
+        setCart(newCart);
+    }
+
     return (
         <div>
             <h2 className='Players-title'>We are Bangladesh team Players</h2>
@@ -23,12 +33,13 @@ const Players = () => {
                 players.map(player =><Player 
                     key={player.id}
                     player={player}
+                    handlePlayer = {handlePlayer}
                     ></Player> )
             }
            </div>
 
            <div>
-                <Information></Information>
+                <Information cart={cart}></Information>
            </div>
           </div>
             
